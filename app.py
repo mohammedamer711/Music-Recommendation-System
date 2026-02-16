@@ -613,7 +613,7 @@ with col2:
                           key=lambda i: euclidean(normalized_query, centroids[i]))
         
         # Display user profile visualization
-        st.markdown("### 🎨 Your Music Fingerprint")
+        st.markdown("### 🎨 Your Music Fingerprint!!")
         
         # Create feature progress bars - ensure values are in [0, 1]
         for i, feature in enumerate(feature_names):
@@ -744,3 +744,4 @@ st.markdown("""
         </p>
     </div>
 """, unsafe_allow_html=True)
+
