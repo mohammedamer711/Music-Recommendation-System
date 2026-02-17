@@ -1,4 +1,4 @@
-# ML1 – Music Recommendation System 🎵
+# Music Recommendation System 🎵
 
 This is a beginner-friendly Machine Learning project focused on building a
 music recommendation system using basic ML concepts.
@@ -6,6 +6,9 @@ music recommendation system using basic ML concepts.
 The project is mainly for learning purposes and experimentation.
 
 ---
+## Algorithms Used
+- K-means clustering
+- K-NN
 
 ## 🚀 Features
 - Music recommendation using similarity-based logic
