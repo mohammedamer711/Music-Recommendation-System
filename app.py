@@ -71,7 +71,7 @@ def load_data():
 
     return songs, df
 
-# 🔥 THIS WAS MISSING
+
 songs, original_df = load_data()
 songs = copy.deepcopy(songs)
 
@@ -144,7 +144,7 @@ with col2:
         recs=knn(q,clusters[idx],neighbors_k)
 
         # Music Fingerprint
-        st.markdown("### 🎨 Your Music Fingerprint")
+        st.markdown("### Your Music Fingerprint")
         for i,f in enumerate(features):
             st.progress(q[i])
             st.caption(f"{emojis[i]} {f}: {q[i]*100:.1f}%")
